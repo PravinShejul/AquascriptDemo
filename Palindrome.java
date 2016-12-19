@@ -1,26 +1,24 @@
-//package com.company;
-
-public class Palin {
-
-    public static void main(String args[])
-    {
-        int n=818;
-
-        int rev=0;
-
-        hile(n>0)
-        
-            int r=n%10;
-            n=n/
-            rev= r*10 +rev;
-        }
-        if(rev==n)
-        {
-            System.out.println("palindrom")
-        }
-        else
-        
-            System.out.println("not palin");
-        }
-    }
-}
+import java.util.*;
+ 
+class Palindrome
+{
+   public static void main(String args[])
+   {
+      String original, reverse = "";
+      Scanner in = new Scanner(System.in);
+ 
+      System.out.println("Enter a string to check if it is a palindrome");
+      original = in.nextLine();
+ 
+      int length = original.length();
+ 
+      for ( int i = length - 1; i >= 0; i-- )
+         reverse = reverse + original.charAt(i);
+ 
+      if (original.equals(reverse))
+         System.out.println("Entered string is a palindrome.");
+      else
+         System.out.println("Entered string is not a palindrome.");
+ 
+   }
+}	
