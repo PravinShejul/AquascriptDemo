@@ -22,5 +22,13 @@ public class Palin {
         
             System.out.println("not palin");
         }
+       if(rev==n)
+        {
+            System.out.println("palindrom")
+        }
+        else
+        
+            System.out.println("not palin");
+        }
     }
 }
