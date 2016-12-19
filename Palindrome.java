@@ -26,9 +26,6 @@ public class Palin {
         {
             System.out.println("palindrom")
         }
-        else
-        
-            System.out.println("not palin");
-        }
+       
     }
 }
